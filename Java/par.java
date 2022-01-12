@@ -7,7 +7,7 @@ import java.util.Random;
  * How to Generate Random Number in Java with Some Variations?
  */
  
-public class randcrunchify {
+public class par{
  
     // Simple test which prints random number between min and max number (Number Range Example)
     public void RandomTest1() throws InterruptedException {
@@ -19,12 +19,7 @@ public class randcrunchify {
 			// Returned values are chosen pseudorandomly with (approximately) uniform distribution from that range.
             float randomNumber = (min + (float) (Math.random() * ((max - min))));
             System.out.println("Crunchify Thread 1 random result: " + randomNumber);
- 
-            
-            // sleep() causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds,
-            // subject to the precision and accuracy of system timers and schedulers.
-            // The thread does not lose ownership of any monitors.
-            Thread.sleep(500);
+            Thread.sleep(5);
         }
     }
  
@@ -77,4 +72,15 @@ public class randcrunchify {
         crunchifyThread1.start();
         crunchifyThread2.start();
    }
+   }
+   class encodagepardefaut {
+        public static void main (String arg[])
+            throws java.io.IOException {
+                String encodage = System.getProperty("file.encoding") ; 
+                System.out.println("encodage par defaut:"+ encodage ) ; 
+                String proverbe = " Qui s\u00E8me le vent , r\u00E9colte la temp\u00EAte" ;
+                String prencode = new String (proverbe.getBytes(),encodage ) ; 
+                System.out.println (" proverbe : " + prencode) ;
+            }
+        
    }

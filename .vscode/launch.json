@@ -2,6 +2,69 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch encodagepardefaut",
+      "request": "launch",
+      "mainClass": "encodagepardefaut",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch randcrunchify",
+      "request": "launch",
+      "mainClass": "randcrunchify",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch par",
+      "request": "launch",
+      "mainClass": "par",
+      "projectName": "project1_823222b"
+    },
+    {
+      "type": "java",
+      "name": "Launch test1",
+      "request": "launch",
+      "mainClass": "test1",
+      "projectName": "project1_823222b"
+    },
+    {
+      "type": "java",
+      "name": "Launch randcrunchify",
+      "request": "launch",
+      "mainClass": "randcrunchify",
+      "projectName": "project1_823222b"
+    },
+    {
+      "type": "java",
+      "name": "Launch encodagepardefaut",
+      "request": "launch",
+      "mainClass": "encodagepardefaut",
+      "projectName": "project1_a8fe795a"
+    },
+    {
+      "type": "java",
+      "name": "Launch nigge",
+      "request": "launch",
+      "mainClass": "nigge",
+      "projectName": "project1_a8fe795a"
+    },
+    {
+      "type": "java",
+      "name": "Launch statistique",
+      "request": "launch",
+      "mainClass": "statistique",
+      "projectName": "project1_a8fe795a"
+    },
+    {
+      "type": "java",
+      "name": "Launch nigga",
+      "request": "launch",
+      "mainClass": "nigga",
+      "projectName": "project1_a8fe795a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
@@ -9,9 +72,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "c:/Users/ousse/Desktop/project1",
+      "cwd": "c:/Users/ousse/Desktop/Thenofolder/project1",
       "environment": [],
-      "program": "c:/Users/ousse/Desktop/project1/build/Debug/outDebug",
+      "program": "c:/Users/ousse/Desktop/Thenofolder/project1/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "C:/Program Files/CodeBlocks/MinGW/bin/gdb.exe",
