@@ -1,3 +1,4 @@
+package Java ;
 import java.util.* ;
   class ffs {
        public static void main (String arg[]){ 

@@ -1,3 +1,4 @@
+package Java ;
 // ex page 60 le livre de java 
 import java.util.*; 
   class statistique {

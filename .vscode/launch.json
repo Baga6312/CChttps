@@ -3,6 +3,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch window",
+      "request": "launch",
+      "mainClass": "noel2.window",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch window",
+      "request": "launch",
+      "mainClass": "Noel.window",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Window",
+      "request": "launch",
+      "mainClass": "Noel.Window",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch frame",
+      "request": "launch",
+      "mainClass": "Noêl.frame",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch frame",
+      "request": "launch",
+      "mainClass": "frame",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch bigback",
+      "request": "launch",
+      "mainClass": "bigback",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch test3",
+      "request": "launch",
+      "mainClass": "test3",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch test2",
+      "request": "launch",
+      "mainClass": "test2",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch nigge",
+      "request": "launch",
+      "mainClass": "nigge",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch kmd",
+      "request": "launch",
+      "mainClass": "kmd",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch test1",
+      "request": "launch",
+      "mainClass": "test1",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
       "name": "Launch encodagepardefaut",
       "request": "launch",
       "mainClass": "encodagepardefaut",

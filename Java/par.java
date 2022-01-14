@@ -1,3 +1,4 @@
+package Java ; 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -82,5 +83,6 @@ public class par{
                 String prencode = new String (proverbe.getBytes(),encodage ) ; 
                 System.out.println (" proverbe : " + prencode) ;
             }
+        }
         
-   }
+   

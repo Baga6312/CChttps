@@ -1,3 +1,4 @@
+package Java ;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -34,6 +35,7 @@ public class randcrunchify {
         list.add("Facebook");
         list.add("Twitter");
         list.add("Google");
+        
  
         Random randomNumber = new Random();
         String randomEle;

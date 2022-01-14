@@ -1,11 +1,19 @@
-import java.awt.* ; 
- 
-  public class test1  {
-       public void paint (Graphics g){
-             int a = 1 ; 
-             int b = 29 ; 
-             int c = a + b ; 
-             String s = " Sum =" + String.valueOf(c) ; 
-             g.drawString(s,100,100) ; 
+package Java ;
+import java.util.* ; 
+
+class test1 {
+       public static void main(String [] parameter) {
+             try (Scanner scan = new Scanner(System.in) ) {
+             int n ;
+             Double r ;  
+             System.out.println("donner un entier ") ;
+             n = scan.nextInt() ; 
+             if ( n > 0 ){ 
+                    r= Math.sqrt (n) ; 
+             }else{
+                   r = Math.sqrt (-n); 
+            }
+             System.out.println ("pour "+n+" la resultat est : " + r) ; 
+          }
        }
-  }
+}
