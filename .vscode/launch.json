@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Launch window",
       "request": "launch",
+      "mainClass": "Java.Noel.window",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch window",
+      "request": "launch",
       "mainClass": "noel2.window",
       "projectName": "project1_c3a12c9"
     },
