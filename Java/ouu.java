@@ -12,6 +12,6 @@ import java.util.*;
         }
         int T[][] = new int [n][n] ; 
         float m = T[0].length/2 ;
-        System.out.println(T[0].length);
+        System.out.println(m);
     }
  }
