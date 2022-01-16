@@ -1,12 +1,13 @@
 package Noel;
 import java.awt.*;
+import javax.swing.JFrame;
 
 public class window {
     public static final int  ht = 300 ; 
     public static final int  lg = 300 ; 
 
     public static void main (String [] arg ) {
-         Frame f = new Frame() ; 
+         JFrame f = new JFrame() ; 
 
          f.setTitle("Window") ;
          f.setBackground(Color.gray); 

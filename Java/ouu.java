@@ -1,20 +1,17 @@
-package Java ;
-import java.util.* ; 
+package Java; 
+import java.util.*;
 
-public class ouu {
-   public static int  urmom () {
-     int n  ; 
-     try (Scanner scan = new Scanner (System.in)) {
-      do {
-           System.out.print (" donner la tailel de tableau ") ; 
-            n = scan.nextInt() ; 
-      }   while ((n>0)&&( n<100)) ; 
-      return  n ; 
-   } 
-}
-
-   
-   public static void ff (){
-
-   }
-}
+ public class ouu {
+    public static void main(String[] args) {
+        int n ; 
+        try (Scanner scan = new Scanner(System.in)) {
+            do{
+              System.out.print("donner un entier") ; 
+              n = scan.nextInt() ; 
+            }while (!(n>0)&&(n<100)) ;
+        }
+        int T[][] = new int [n][n] ; 
+        float m = T[0].length/2 ;
+        System.out.println(T[0].length);
+    }
+ }

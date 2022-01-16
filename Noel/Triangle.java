@@ -13,7 +13,7 @@ public class Triangle {
     private int pX = window.lg/2-50 ;
     private int pY = window.ht/2-50 ; 
     private int [] xP ={0,10,-10 } ; 
-    private int [] yP ={-10,10,-10} ; 
+    private int [] yP ={-10,10,10} ; 
     private int nP= 3 ; 
     public Triangle(int lig, int col, Graphics g, Color c) {
         for (int i = 0 ;  i <nP ; i ++ ) { 

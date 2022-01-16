@@ -8,7 +8,7 @@ public class tree {
         int nc = 2*nl-1 ;
         deco = c ; 
         sapin = new int [nl][nc] ; 
-        int milieu = sapin [0].length/2 ; 
+        int milieu = sapin[0].length/2 ; 
         for ( int j = 0 ; j <nl ; j ++ )
           for ( int i = -j ; i <=j ; i ++ )
           sapin [j] [milieu+i] = (int) (5*Math.random()+1) ; 

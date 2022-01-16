@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ouu",
+      "request": "launch",
+      "mainClass": "Java.ouu",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch nay",
+      "request": "launch",
+      "mainClass": "Java.nay",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
       "name": "Launch window",
       "request": "launch",
       "mainClass": "Java.Noel.window",
