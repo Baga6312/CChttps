@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch test2",
+      "request": "launch",
+      "mainClass": "Java.test2",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch moi",
+      "request": "launch",
+      "mainClass": "Java.moi",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch rectjavfx",
+      "request": "launch",
+      "mainClass": "Java.rectjavfx",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exemple",
+      "request": "launch",
+      "mainClass": "Java.Exemple",
+      "projectName": "project1_c3a12c9"
+    },
+    {
+      "type": "java",
       "name": "Launch ouu",
       "request": "launch",
       "mainClass": "Java.ouu",
