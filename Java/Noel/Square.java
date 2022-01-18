@@ -1,4 +1,4 @@
-package Noel;
+package Java.Noel;
 import java.awt.*; 
  
 public class Square {

@@ -1,4 +1,4 @@
-package Noel;
+package Java.Noel;
 import java.awt.*;
 import javax.swing.JFrame;
 
@@ -13,7 +13,9 @@ public class window {
          f.setBackground(Color.gray); 
          f.setSize(ht,lg); 
          f.setVisible(true);
-         f.add (new Draw()) ; 
+         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         f.add (new Draw()) ;
+          
      }
 
 }

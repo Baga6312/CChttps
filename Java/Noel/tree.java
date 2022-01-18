@@ -1,9 +1,12 @@
-package Noel;
+package Java.Noel;
 import java.awt.*; 
  
 public class tree {
+
     private int [][] sapin ; 
     private Color deco ; 
+
+
     public tree (int nl  ,Color c ) {
         int nc = 2*nl-1 ;
         deco = c ; 
@@ -12,9 +15,11 @@ public class tree {
         for ( int j = 0 ; j <nl ; j ++ )
           for ( int i = -j ; i <=j ; i ++ )
           sapin [j] [milieu+i] = (int) (5*Math.random()+1) ; 
-    }
+        }
+
+
     public void Draw (Graphics g) {
-        Color vert = Color.green; 
+         Color vert = Color.green; 
           for ( int i = 0 ; i <sapin.length; i++ ){
               for ( int j = 0;  j <sapin[0].length ; j++ ){
                   switch ( sapin[i][j]){
@@ -27,8 +32,8 @@ public class tree {
                                new Triangle(i,j,g,vert) ; break ; 
                       case 5 : vert = vert.darker() ; 
                                new Triangle(i,j,g,vert) ; break ; 
-                  }
-              }
-           }
-    }
+                    }
+                }
+            }
+        } 
 }

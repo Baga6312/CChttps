@@ -1,4 +1,4 @@
-package Noel;
+package Java.Noel;
 import java.awt.*; 
 
 public class Draw extends Canvas { 
@@ -8,6 +8,7 @@ public class Draw extends Canvas {
         setForeground(Color.green);
         setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR)) ; 
        A = new tree (8,Color.yellow) ;
+       
     }
     public void paint (Graphics g) {
      new Triangle (g) ;

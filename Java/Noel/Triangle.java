@@ -1,4 +1,4 @@
-package Noel;
+package Java.Noel;
 import java.awt.*;  
 
 public class Triangle {
@@ -16,10 +16,12 @@ public class Triangle {
     private int [] yP ={-10,10,10} ; 
     private int nP= 3 ; 
     public Triangle(int lig, int col, Graphics g, Color c) {
+
         for (int i = 0 ;  i <nP ; i ++ ) { 
             xP[i] = xP[i] + (5*col) + pX ; 
             yP[i] = yP[i] + (15*lig) +pY ; 
         }
+        
         g.setColor(c) ; 
         g.fillPolygon(xP,yP,nP);
     }

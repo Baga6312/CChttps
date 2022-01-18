@@ -17,7 +17,6 @@ public class Exemple extends JPanel{
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
 
-
         JButton b = new JButton("repaint") ; 
          /*b.addActionListener(new ActionListener(){
             @Override
